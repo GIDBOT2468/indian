@@ -1,0 +1,65 @@
+body {
+    background: repeating-radial-gradient(rgb(36, 36, 36), black);
+}
+
+#black-bg {
+    background: linear-gradient(black, rgb(31, 31, 31));
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#title {
+    background: -webkit-linear-gradient(orange,orange, white, green, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+#about {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+#about h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+#about p{
+    font-size: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#flag1 {
+    float: left;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+#flag2 {
+    float: right;
+    padding-top: 30px;
+    padding-right: 80px;
+}
+
+#images {
+    width: 25%;
+    margin-left: 1%;
+    align-items: center;
+    display: flex;
+    position: relative;
+    
+}
+#images img{
+    padding: 10px;
+}
+
+#images img:hover {
+    opacity: 50%;
+    transform: rotate(355deg);
+}
+
+#lineup{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
